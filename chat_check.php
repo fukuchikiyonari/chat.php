@@ -9,7 +9,6 @@
 <body>
     <?php
 
-
     error_reporting(E_ALL & ~E_NOTICE);
 
     session_start();
@@ -45,7 +44,7 @@
             echo '<br><br>';
         }
 
-        if($first_name==""){
+        if($gender==""){
             echo"性別を選択してください!<br><br>";
             $okflg=false;
         }
